@@ -102,8 +102,8 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
-		font-weight: 300;
+		color: black;
+		font-weight: 600;
 		font-size: 13pt;
 	}
 
@@ -2065,8 +2065,8 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
-		height: 4em;
-		line-height: 3.5em;
+		height: 6em;
+		line-height: 5.5em;
 	}
 		#nav h2 {
 			text-align: left;

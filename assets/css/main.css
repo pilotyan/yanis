@@ -1927,6 +1927,7 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
+		height: 100%;
 	}
 
 		.box.style1 {
@@ -1936,9 +1937,9 @@ input, select, textarea {
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
 			}
-
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
+			bottom: 0;
 		}
 
 		.box.style2 .image {
@@ -1947,6 +1948,7 @@ input, select, textarea {
 			top: 2em;
 			margin: -4em 0 4em -4em;
 			width: auto;
+			height: 80%;
 		}
 
 /* Icons */
@@ -2515,3 +2517,18 @@ input, select, textarea {
 					}
 
 	}
+
+	
+/* ex Small */
+
+@media screen and (max-width:450px) {
+
+	/* Basic */
+
+	/* Nav */
+
+	#nav h2{
+		font-size: 1em;
+	}
+
+}

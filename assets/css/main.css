@@ -1938,6 +1938,7 @@ input, select, textarea {
 				margin-bottom: 0.5em;
 			}
 		.box.style2 h3 {
+			padding-top: 5%;
 			margin-bottom: 0.25em;
 			bottom: 0;
 		}
@@ -2307,6 +2308,10 @@ input, select, textarea {
 				#top .image {
 					margin: 0 auto 2em auto;
 				}
+
+			.box.style2 h3{
+				padding-top: 5%;
+			}
 
 	}
 

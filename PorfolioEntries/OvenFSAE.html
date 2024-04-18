@@ -24,63 +24,29 @@
 		<article id="portfolio" class="wrapper style5">
 			<div class="container" style="padding-bottom:150px">
 				<h1>Formula SAE - Gaucho Racing</h1>
-				<img class= "image left" src="../YanisImages/Aero7.jpg" alt="" width="30%" height="auto"/>
-				<img class= "image right" src="../YanisImages/Aero6.jpg" alt="" width="40%" height="auto"/>
+				
 				<p>
-					The Calmstone is the name of the latest revision of a biofeedback device that the Hansma Research Lab has been working on. When I joined the lab
-					they were using a very "uncomfortable" and "unwieldy" device to get data from human subjects for their research which required the subjects to come 
-					into the lab every single time.
+					Over the summer of 2023 Firefly donated a bunch of experied pre-preg carbon fiber to Gaucho Racing. We decided that using pre-preg over wet laying fiberglass had enough benefits to warrant searching for a way to use it. Our first obstacle was storage, the material datasheet advised to store the carbon fiber at very low temperatures to prevent the epoxy from curing. 
 				</p>
 				<p>
-					The Calmstone is the name of the latest revision of a biofeedback device that the Hansma Research Lab has been working on. When I joined the lab
-					they were using a very "uncomfortable" and "unwieldy" device to get data from human subjects for their research which required the subjects to come 
-					into the lab every single time.
+					Eventually we found a lab on campus with a walk in refrigerator that allowed us to store our giant rolls of pre-preg, shout out CNSI. However, now we needed a way to cure the carbon fiber, which entailed an oven that could fit our largest element and also reach 350 degrees fahrenheit.
+					We contacted local companies and searched on campus but were unable to find any curing ovens that we could use, so we decided to design and make our own.
 				</p>
 				<p>
-					The Calmstone is the name of the latest revision of a biofeedback device that the Hansma Research Lab has been working on. When I joined the lab
-					they were using a very "uncomfortable" and "unwieldy" device to get data from human subjects for their research which required the subjects to come 
-					into the lab every single time.
+					Our first step was to create a list of requirements that our design had to fulfill, and then verify that we could feasibly fullfill those requirements. Using the curing cycles on the material datasheet and the sizes of all of our elements we set the requirements, temperature, temperature rate, size, and safety. 
+					We planned to wire the oven ourselves so we were limited to only using 120v by our school. Using heat transfer calculations we found the total heat loss and energy required to heat the inside of the oven, and from that we determined that we would need a minimum of 3 120v circuits. The first two circuits would pull 14 A to power
+					our heating elements and the last circuit would power our temperature PID controller and circulation fan. 
 				</p>
-				<img class= "image left" src="../YanisImages/Aero5.jpg" alt="" width="30%" height="auto"/>
 				<p>
-					The Calmstone is the name of the latest revision of a biofeedback device that the Hansma Research Lab has been working on. When I joined the lab
-					they were using a very "uncomfortable" and "unwieldy" device to get data from human subjects for their research which required the subjects to come 
-					into the lab every single time.
+					After multiple design reviews with the staff engineers in the mechanical engineering department we finalized the design, bought all the components, and began manufacturing.
 				</p>
-				<img class= "image center" src="../YanisImages/Aero4.jpg" alt="" width="30%" height="auto"/>
-				<img class= "image right" src="../YanisImages/Aero3.jpg" alt="" width="30%" height="auto"/>
-				<p>
-					The Calmstone is the name of the latest revision of a biofeedback device that the Hansma Research Lab has been working on. When I joined the lab
-					they were using a very "uncomfortable" and "unwieldy" device to get data from human subjects for their research which required the subjects to come 
-					into the lab every single time.
-				</p>
-				<img class= "image center" src="../YanisImages/Aero8.jpg" alt="" width="50%" height="auto"/>
-
+				<img class= "image center" src="../YanisImages/Oven1.jpg" alt="" width="70%" height="auto"/>
+				<div class="container" style="padding-bottom:300px">
+					<embed src="FSAE_Oven_Design.pdf" width="100%" height="2100px" />
+				</div>
 			</div>
 		</div>
 
-		
-		<!-- Contact -->
-		<article id="contact" class="wrapper style4">
-				<div class="container medium">
-						<div class="col-12">
-							<hr />
-							<h3>Contact me...</h3>
-							<ul class="social">
-								<li><a href="https://www.linkedin.com/in/yanisyankauskas/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="mailto:pilotyan@gmail.com" class="fa-solid fa-envelope"><span class="label"></span></a></li>
-								<li><h3>pilotyan@gmail.com</h3></li>
-							</ul>
-							<hr />
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</div>
-			</article>
 
 <!-- Scripts -->
 			<script src="../assets/js/jquery.min.js"></script>
